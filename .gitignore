@@ -1,9 +1,9 @@
-cat > .gitignore << 'EOF'
 build/
 .vscode/
+.codex
 CMakeCache.txt
 CMakeFiles/
+compile_commands.json
 *.o
 *.a
 *.out
-EOF
